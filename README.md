@@ -5,7 +5,7 @@
 Building an Azure Data Lake for Bike Share Data Analytics
 
 ## Description
-In this project I implemented Lakehouse architecture on the Azure Databricks platform. I designed a star schema database, import the raw data into DBFS, and transform the data into fact and dimension tables according to the star schema. This project was done in Azure Databricks platform using Spark Notebook.
+In this project I implemented Lakehouse architecture on the Azure Databricks platform. I designed a star schema database, imported the raw data into DBFS, and transformed the data into fact and dimension tables according to the star schema. This project was done in Azure Databricks platform using Spark Notebook.
 
 ## Files used
 * raw csv files (https://drive.google.com/drive/folders/1sFpJ2lFZu45PuwirY_8_sQZ04oGoPIbl?usp=share_link)
