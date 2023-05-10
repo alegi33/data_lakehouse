@@ -17,7 +17,7 @@ In this project I implemented Lakehouse architecture on the Azure Databricks pla
 The raw dataset consists of trip, rider, payment and station data in separate csv files. These are the transactional data of a bike sharing platform which needs to be ingested into a database in a star schema model for analytical purposes.
 
 ## Data Transformation Approach
-1) First, the raw csv files are uploaded into DBFS file storage system.
+1) Raw csv files are uploaded into DBFS file storage system.
 2) Using Spark Notebook, the csv files are extracted into the Delta file system.
 3) Load the data into tables in Delta storage.
 4) Transform the data into star schema model using PySpark and store it in fact and dimension tables.
