@@ -7,6 +7,12 @@ Building an Azure Data Lake for Bike Share Data Analytics
 ## Description
 In this project I implemented Lakehouse architecture on the Azure Databricks platform. I designed a star schema database, imported the raw data into DBFS, and transformed the data into fact and dimension tables according to the star schema. This project was done in Azure Databricks platform using Spark Notebook.
 
+## Objectives
+* Design a star schema based on the business outcomes
+* Import the data into Azure Databricks using Delta Lake to create a Bronze data store
+* Create a gold data store in Delta Lake tables
+* Transform the data into the star schema for a Gold data store
+
 ## Files used
 * raw csv files (https://drive.google.com/drive/folders/1sFpJ2lFZu45PuwirY_8_sQZ04oGoPIbl?usp=share_link)
 * date dimension table (https://community.sisense.com/t5/knowledge/date-dimension-file/ta-p/9562)
