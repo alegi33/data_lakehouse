@@ -26,7 +26,7 @@ The raw dataset consists of trip, rider, payment and station data in separate cs
 1) Raw csv files are uploaded into DBFS file storage system.
 2) Using Spark Notebook, the csv files are extracted into the Delta file system and saved as Parquet files.
 3) Load the data into tables in Delta storage by creating tables from the Parquet files.
-4) Transform the data into star schema model (fact & dimension tables) using PySpark and save them as Delta table.
+4) Transform the data into star schema model (fact & dimension tables) using PySpark and save them as Delta tables.
 
 ## List of Resources
 - udacity.com
